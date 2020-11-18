@@ -1,0 +1,113 @@
+.pay-wrapper {
+    color: #444444;
+}
+
+.pay-con{
+    align-items: normal;
+}
+
+.right-payment-wrapper {
+    flex-grow: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+
+}
+
+.left-payment-wrapper {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+
+.product-details-pay {
+    padding: 1rem 0;
+}
+
+.payment-label {
+    font-size: 1.2rem;
+    font-weight: 700;
+    background: #e6e6e6;
+    padding: 0.4rem 1rem;
+    border-radius: 1rem;
+
+}
+
+.items-pay {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 1rem 0;
+}
+
+.item-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-pay {
+    height: 4rem;
+    border-radius: 1rem;
+}
+
+.name ,
+.price {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.detail-buy-wrapper-pay {
+    width: 15rem;
+}
+
+.address-wrapper {
+    padding: 1rem 2rem;
+}
+
+.payment-methods-col {
+    display: flex;
+    padding: 2rem;
+}
+
+.payment-options {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0.4rem 0;  
+}
+
+.payment-info {
+    flex-grow: 5;
+    border: 0.1rem solid #dddddd;
+    border-radius: 1rem;
+    height: 12rem;
+    padding: 1rem;
+    width: 10rem;
+}
+
+.payment-option {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 0.4rem 0;
+}
+
+.total-pay {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: #dddddd;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.method-label{
+    padding-left: 1rem;
+}

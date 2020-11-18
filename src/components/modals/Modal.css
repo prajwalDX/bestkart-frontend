@@ -1,0 +1,41 @@
+.admin-modal-wrapper {
+    color: #444444;
+    padding: 2rem 5rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    background: #c5e0ff;
+    border-radius: 1rem;
+}
+
+.cross-button {
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border: 0.1rem solid #444444;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    padding: 0.4rem;
+    border-radius: 20rem;
+}
+
+.modal-form {
+    display: flex;
+    flex-direction: row;
+}
+
+.right-modal {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-modal {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+}

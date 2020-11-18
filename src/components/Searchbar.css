@@ -1,0 +1,16 @@
+
+.search-con {
+    max-width: 600px;
+    flex-direction: row;
+}
+
+.search-box {
+    padding: 0.6rem 1rem;
+    width: 26rem;
+    border-radius: 1.2rem;
+    border: 0.1rem solid #FFD25F;
+    color: #535353;
+    font-size: 1rem;
+    font-weight: 500;
+}
+

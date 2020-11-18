@@ -1,0 +1,56 @@
+.center-con{
+    justify-content: center;
+}
+
+.signin-form {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+}
+
+.process-message {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.signin-help {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.signin-help-pass {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #444444;
+    cursor: pointer;
+}
+.signin-help-pass:hover {
+    color: #000000;
+}
+
+.signin-help-new {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #444444;
+    cursor: pointer;
+} 
+
+.register-help-signin {
+    text-align: end;   
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #444444;
+    cursor: pointer;
+}
+.signin-help-new:hover, .register-help-signin:hover {
+    color: #000000;
+}
+
+.form-heading {
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 1rem 0;
+}
